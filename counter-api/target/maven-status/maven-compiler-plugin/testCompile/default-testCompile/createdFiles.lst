@@ -1,0 +1,5 @@
+com\emahia\counterapi\CounterApiApplicationTests.class
+com\emahia\counterapi\repositories\impl\TextWordsRepositoryImplTest.class
+com\emahia\counterapi\services\impl\CreateTextWordsServiceImplTest.class
+com\emahia\counterapi\services\impl\SearchTextWordsServiceImplTest.class
+com\emahia\counterapi\services\impl\TopTextWordsServiceImplTest.class
