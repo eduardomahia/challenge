@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: server
+
+logging:
+  level:
+    root: info
+
+adapters:
+  gpt:
+    baseUrl: https://api.openai.com/v1
+    completionsUrl: ${adapters.gpt.baseUrl}/chat/completions
+    token: ${GPT_TOKEN}
+
+restClient:
+  timeoutInMs: 10000
+
+imapConnection:
+  host: imap.gmail.com
+  port: 993
+  protocol: https
+  username: trassiapp@gmail.com
+  password: ${EMAIL_SECRETS}
+
+
